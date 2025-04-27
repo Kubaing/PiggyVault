@@ -38,7 +38,6 @@ function formatAddress(address) {
   return address.substring(0, 6) + "..." + address.substring(address.length - 4);
 }
 
-// ...โค้ดของคุณข้างบน
 
 // ฟังก์ชันทำให้รูปภาพเด้งดึ๋ง
 function bounceImage() {
@@ -49,7 +48,7 @@ function bounceImage() {
   // เอา class ออกหลัง animation จบ เพื่อให้กดเด้งได้อีก
   setTimeout(() => {
     image.classList.remove('bounce');
-  }, 500); // ต้องตรงกับเวลาใน CSS
+  }, 500); 
 }
 
 // ฟังก์ชัน Deposit
@@ -90,9 +89,6 @@ async function withdraw() {
   showLoader(false);
 }
 
-// ...โค้ดต่อ
-
-
 async function getBalance() {
   try {
     const balance = await contract.getBalance();
@@ -128,4 +124,4 @@ document.querySelector('#teamBtn').addEventListener('click', openModal);
 document.getElementById("connectButton").addEventListener("click", connectWallet);
 document.getElementById("depositButton").addEventListener("click", deposit);
 document.getElementById("withdrawButton").addEventListener("click", withdraw);
-console.log(ethers);  // ดูว่า ethers ถูกโหลดหรือไม่
+console.log(ethers);  

@@ -70,7 +70,7 @@
 
 ## 🔗 ลิงก์ที่เกี่ยวข้อง
 
-- [เว็บไซต์ PiggyVault (GitHub Pages)](https://tinaratchaporn.github.io/PiggyVault/)
+- [เว็บไซต์ PiggyVault (GitHub Pages)](https://kubaing.github.io/PiggyVault/)
 - [Source Code บน GitHub](https://github.com/tinaratchaporn/PiggyVault)
 
 ---
